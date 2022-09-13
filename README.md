@@ -3,6 +3,8 @@
 
 ---
 
+⭐어길시 반성문을 쓰게 됩니다.⭐
+
 - 1주차(2022-09-13 ~ 2022-09-20)
     - level 1
         - [나머지가 1이 되는 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/87389?language=python3)
