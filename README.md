@@ -5,7 +5,7 @@
 
 ⭐어길시 반성문을 쓰게 됩니다.⭐
 
-🌟매주 금 토 일 중 하루는 코드 리뷰 및 피드백🌟
+🌟매일매일 하나의 문제를 푸는걸 목표로 합니다.🌟
 
 - 1주차(2022-09-13 ~ 2022-09-20)
     - level 1
@@ -26,3 +26,19 @@
         - [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954)
         - [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
         - [두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)
+
+- 3주차(2022-11-13 ~ 2022-11-19)
+    - 2022-11-13
+        - [서울에서 김서방 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12919)
+    - 2022-11-14
+        - [나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910)
+    - 2022-11-15
+        - [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935)
+    - 2022-11-16
+        - [음양 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/76501)
+    - 2022-11-17
+        - [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)
+    - 2022-11-18
+        - [내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
+    - 2022-11-19
+        - [문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917)
