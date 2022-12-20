@@ -1,15 +1,20 @@
 """
-string 형 배열 seoul의 element중 "Kim"의 위치를 찾아,
-"김서방은 x에 있다"는 string을 반환하는 함수, solution을 완성하세요
-seoul에 "Kim"은 오직 한번만 나타나며 잘못된 값이 입력되는 경우는 없습니다.
+array의 각 element 중 divisor로 나누어 떨어지는 값을
+오름차순으로 정렬한 배열을 반환하는 함수, solution을 작성해주세요
 
-제한사항
-- seoul은 길이 1이상, 1000 이하인 배열
-- seoul의 우너소는 길이 1이상, 20이하인 문자열
-- kim은 반드시 seoul 안에 포함되어있습니다.
+divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하세요
+
 """
-def solution(seoul):
-    answer='김서방은 {}에 있다'.format(seoul.index("Kim"))
-    return answer
 
-print(solution(["f", "Kim"]))
+def solution(arr, divisor):
+    arr=list(filter(lambda x: x%divisor==0,arr))
+    arr.sort()
+    return [-1] if (len(arr)==0) else arr
+print(solution([3,2,6],10))
+
+"""
+다른사람의 풀이
+1
+2
+def solution(arr, divisor): return sorted([n for n in arr if n%divisor == 0]) or [-1]
+"""
