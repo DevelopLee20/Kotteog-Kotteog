@@ -10,3 +10,8 @@ def solution(x):
     return True if x%num==0 else False #더한 값으로 x를 나눠주고 나머지가 0이면 True를 반환 아니면 False를 반환
 
 print(solution(int(input())))
+
+"""
+다른 사람의 풀이
+return n%sum([int(c) for c in str(n)])==0
+"""
