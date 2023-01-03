@@ -16,8 +16,22 @@
 -> 해시를 사용하는 문제
 """
 #참여한 선수 들, 완주한 선수들
+
+def solution(participant, completion):
+    d= dict()
+    hashvalue=0
+    for p in participant:
+        d[hash(p)]=p
+        hashvalue += hash(p)
+    for c in completion:
+        hashvalue -= hash(c)
+    return d[hashvalue]
+
+"""
+원래 풀이
 def solution(participant, completion):
     for i in participant:
         if i not in completion:
             return i
         completion.remove(i)
+"""
