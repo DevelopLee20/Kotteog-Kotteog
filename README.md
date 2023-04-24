@@ -13,12 +13,12 @@
 👋이번주 내용👋
 
 - 5주차(2023-04-24 ~ 2023-04-29)
-  - Siliver(순서대로 5 ~ 1)
-    - [1475번: 방 번호](https://www.acmicpc.net/problem/1475)
-    - [10773번: 제로](https://www.acmicpc.net/problem/10773)
-    - [2606번: 바이러스](https://www.acmicpc.net/problem/2606)
-    - [1012번: 유기농 배추](https://www.acmicpc.net/problem/1012)
-    - [1149번: RGB거리](https://www.acmicpc.net/problem/1149)
+  - 백준 자료구조 1 - 200
+    - [1874번: 스택 수열](https://www.acmicpc.net/problem/1874)
+    - [1406번: 에디터](https://www.acmicpc.net/problem/1406)
+    - [10845번: 큐](https://www.acmicpc.net/problem/10845)
+    - [1158번: 요세푸스 문제](https://www.acmicpc.net/problem/1158)
+    - [10866번: 덱](https://www.acmicpc.net/problem/10866)
 
 ---
 
