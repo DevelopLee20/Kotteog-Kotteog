@@ -12,13 +12,13 @@
 
 👋이번주 내용👋
 
-- 5주차(2023-04-24 ~ 2023-04-29)
-  - 백준 자료구조 1 - 200
-    - [1874번: 스택 수열](https://www.acmicpc.net/problem/1874)
-    - [1406번: 에디터](https://www.acmicpc.net/problem/1406)
-    - [10845번: 큐](https://www.acmicpc.net/problem/10845)
-    - [1158번: 요세푸스 문제](https://www.acmicpc.net/problem/1158)
-    - [10866번: 덱](https://www.acmicpc.net/problem/10866)
+- 6주차(2023-05-01 ~ 2023-05-07)
+  - 실버 4,4,1,1 골드5
+    - [9012번: 괄호](https://www.acmicpc.net/problem/9012)
+    - [3986번: 좋은 단어](https://www.acmicpc.net/problem/3986)
+    - [2841번: 외계인의 기타 연주](https://www.acmicpc.net/problem/2841)
+    - [2504번: 괄호의 값](https://www.acmicpc.net/problem/2504)
+    - [2493번: 탑](https://www.acmicpc.net/problem/2493)
 
 ---
 
@@ -73,3 +73,11 @@
     - [괄호](https://www.acmicpc.net/problem/9012)
   - study
     - 문제 풀면서 공부한 것들도 올리기
+
+- 5주차(2023-04-24 ~ 2023-04-29)
+  - 백준 자료구조 1 - 200
+    - [1874번: 스택 수열](https://www.acmicpc.net/problem/1874)
+    - [1406번: 에디터](https://www.acmicpc.net/problem/1406)
+    - [10845번: 큐](https://www.acmicpc.net/problem/10845)
+    - [1158번: 요세푸스 문제](https://www.acmicpc.net/problem/1158)
+    - [10866번: 덱](https://www.acmicpc.net/problem/10866)
