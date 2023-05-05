@@ -1,8 +1,5 @@
 #괄호의 값
 """
-아직 해결 못함
-
-
 4개의 기호 ‘(’, ‘)’, ‘[’, ‘]’를 이용해서 만들어지는 괄호열 중에서 올바른 괄호열이란 다음과 같이 정의된다.
 
 한 쌍의 괄호로만 이루어진 ‘()’와 ‘[]’는 올바른 괄호열이다.
@@ -39,32 +36,30 @@ import sys
 I=sys.stdin.readline
 
 s=I().strip()
-i=0
 stack_=[0,]
-sum=0
+i=0
+
 while(i<len(s)):
-    if s[i]=='(':
+    if(s[i]=="(" or s[i]=="["):
         stack_.append(s[i])
         i+=1
-        tmp=1
-        while((s[i]==")" and stack_[-1]=="(") or (s[i]=="]" and stack_[-1]=="[")):
-            print(stack_, s[i])
-            stack_.pop()
-            if s[i]==")" and s[i-1]=="]":
-                sum+=tmp
-                sum*=2
-            elif s[i]=="]" and s[i-1]==")":
-                sum+=tmp
-                sum*=3
-            elif s[i]==")":
-                tmp*=2
-            else:
-                tmp*=3
-            print(sum, tmp)
-            i+=1
-            if i>=len(s):
-                break
-        sum+=tmp
-        print(stack_, sum)
-        print("\n")
-print(sum)
+    else:
+        if (stack_[-1]!="(" and stack_[-1]!="[" and stack_[-1]==0):
+            tmp=stack_.pop()
+            if(s[i]==")" and stack_[-1]=="("):
+                stack_.append(tmp*2)
+            elif(s[i]=="]" and stack_[-1]=="["):
+                stack_.append(tmp*3)
+        else:
+            tmp=1
+            while((stack_[-1]=="(" and s[i]==")") or (stack_[-1]=="[" and s[i]=="]")):
+                if stack_[-1]=="(":
+                    tmp*=2
+                elif stack_[-1]=="[":
+                    tmp*=3
+                stack_.pop()
+                i+=1
+            if tmp!=1:
+                stack_.append(tmp)
+    print(stack_)
+    print(s[i])
